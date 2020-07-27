@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoffeeMangement.Data\CoffeeMangement.Data.csproj" />
+    <ProjectReference Include="..\CoffeeMangement.Services\CoffeeMangement.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Scripts\clients\index.html" />
+    <None Include="wwwroot\Scripts\clients\index.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Scripts\" />
+    <Folder Include="wwwroot\app\components\bills\" />
+    <Folder Include="wwwroot\app\components\billInfos\" />
+    <Folder Include="wwwroot\app\components\foodCategories\" />
+    <Folder Include="wwwroot\app\components\roles\" />
+    <Folder Include="wwwroot\app\components\tables\" />
+    <Folder Include="wwwroot\app\components\users\" />
+    <Folder Include="wwwroot\app\shared\footer\" />
+    <Folder Include="wwwroot\app\shared\navigation\" />
+    <Folder Include="wwwroot\app\shared\directive\" />
+    <Folder Include="wwwroot\Assets\" />
+  </ItemGroup>
+
+
+</Project>
