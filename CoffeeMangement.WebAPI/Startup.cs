@@ -63,7 +63,7 @@ namespace CoffeeMangement.WebAPI
                 var href = context.Request.Path.Value;
                 if (context.Request.Path.Value == "/")
                 {
-                    context.Response.Redirect("/Scripts/clients/index.html");
+                    context.Response.Redirect("/index.html");
                     return;
                 }
                 //if (context.Request.Path.Value.Contains("/signage-slider") == true)

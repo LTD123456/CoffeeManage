@@ -1,0 +1,110 @@
+
+body {margin:0px 0px; padding:0px; /* Need to set body margin and padding to get consistency between browsers. */
+     /* text-align:center; /* Hack for IE5/Win */
+/*font-size:14px; font-family:Arial Unicode MS;font-weight:normal;*/
+overflow:hidden;
+}
+
+#virtualKeyboard {
+    width: 100%;
+    text-align: center;
+    position:absolute !important;
+    z-index:999;
+    bottom:0px;
+    /*background-color:#7b8490;*/
+    /*border-top:3px solid #000;*/
+}
+.show_effect_virtual_keyboard {
+    cursor:pointer;
+    font-size:25px;
+    top:-9px !important;
+}
+#keyboard{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    left: 50px;
+    background: #bdc1c7;
+    border-radius: 5px;
+    position: absolute;
+ }
+ #keyboard:before{
+       content: '';
+    position: absolute;
+    right: 100%;
+    top: 75%;
+    border-bottom: 15px solid transparent;
+    border-top: 13px solid transparent;
+    border-right: 15px solid #bdc1c7;
+ }
+#keyboard:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+
+#keyboardHeader {position:relative;}
+#keyboardHeader div {color:#fff; background-color:#7b8490;padding:3px; padding-left:15px; padding-right:15px; position:absolute; cursor:pointer; right:-10px; top:-40px;}
+.closex {font-weight:bolder; color:#000;}
+
+#keyboardCapitalLetter {display:none;}
+#keyboardSmallLetter {display:block;}
+#keyboardNumber {display:none;}
+#keyboardSymbols {display:none;}
+
+.jskeyboard
+{
+    width: 7.86%;
+    height: 35px;
+    background-color: #fff;
+    position: relative;
+    float: left;
+    margin: 3px;
+    cursor: pointer;
+    color: #464646;
+    font-size: 1.1em;
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 1px 3px #000000;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    -moz-border-radius: 5px;
+    border-radius: 3px;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+}
+.jskeyboardDown {background:none;background-color: #c9cdd5; -webkit-box-shadow:none;-moz-box-shadow: none;box-shadow: none;}
+.jskeyboard_a{margin-left:5%;}
+.jskeyboard_upper {width: 10%;}
+.jskeyboard_dash {margin-left:5%;clear:left}
+.jskeyboard_underscore {margin-left:5%;}
+.jskeyboard_enter {width:12%; font-size:1.3em;}
+.jskeyboard_del{width:12%; font-size:1.3em;}
+.jskeyboard_smallletter{font-size:1.3em;clear:left}
+.jskeyboard_capitalletterleft{font-size:1.3em;clear:left}
+.jskeyboard_capitalletterright{ width:129px; font-size:1.3em;}
+.jskeyboard_numberleft {
+    width: 18.8%;
+    font-size: 1.3em;
+}
+.jskeyboard_numberright{width:129px; font-size:1.3em;}
+.jskeyboard_space {width:46%;}
+.jskeyboard_symbolsleft{width:172px; font-size:1.3em; margin-left:3%;}
+.jskeyboard_symbolsright{width:13%; font-size:1.3em;}
+
+.key {
+	    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-shadow: 0px 1px 1px #ffffff;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+.key_smallletter {
+	 font-size: 1.3rem;
+}
+.jskeyboard:hover {
+border-color: rgba(82, 168, 236, 0.8);
+outline: 0;
+outline: thin dotted 9;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);
+-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);
+}

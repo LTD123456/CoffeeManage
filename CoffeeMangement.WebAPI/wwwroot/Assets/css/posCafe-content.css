@@ -1,0 +1,206 @@
+﻿#txtSearchCustomer {
+    border: 1px solid #bfb3b3 !important;
+    line-height: 26px !important;
+    width: 100% !important;
+    font-size: 1.5rem !important;
+    padding-left: 5px !important;
+    border-radius: 2px !important;
+}
+
+/*.cashMoney {
+    background-color: aqua;
+    height: 80px;
+}*/
+
+.menu-function {
+    /*background-color: burlywood;*/
+    /*height: 80px;*/
+}
+
+/*.list-item {
+    height: 450px;
+}*/
+
+.list-Invoice {
+    /*height: 660px;*/
+}
+
+.content-Invoice {
+    /*height: 700px;*/
+    overflow-x: hidden;
+}
+
+.btncashMoney {
+    border-top: 1px solid #ffffff;
+    width: 100%;
+    height: 115px;
+    border-radius: 0;
+    background: #138870;
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: bold;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.divTotal > div {
+    background: rgb(236, 235, 233);
+    font-weight: bold;
+    padding: 10px;
+    height: 40px;
+}
+
+#btnMoveTable {
+    background: #ff9b00;
+}
+
+#btnSplitOrder {
+    background: #05a75d;
+}
+
+#btnCancel {
+    background: #cc0532;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.info-Invoice {
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.headerTable {
+    background: #d3d3da;
+}
+
+    .headerTable > tr > th {
+        text-align: center;
+        background: #d3d3da;
+    }
+
+/*fix Header*/
+.table-fixed thead {
+    width: 97%;
+}
+
+.table-fixed tbody {
+    height: 230px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+    display: block;
+}
+
+    .table-fixed tbody td, .table-fixed thead > tr > th {
+        float: left;
+        border-bottom-width: 0;
+    }
+
+
+.txtNumberEdit {
+    border: aliceblue;
+    text-align: center;
+}
+
+/*Phân trang*/
+.page-content {
+    height: 75px;
+}
+
+    .page-content > ul {
+        margin-left: 35%;
+    }
+
+/*table list*/
+.divTableList > div:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    border-radius: 5px;
+}
+
+
+.div-item-panel > .image {
+    height: 100px;
+}
+
+    .div-item-panel > .image > img {
+        height: 100%;
+        width: 100%;
+        padding: 2px;
+        border-radius: 5px;
+    }
+
+.div-item-panel > .item-name > p {
+    text-align: center;
+}
+
+.divTableList {
+    /*height: 650px;*/
+}
+
+    .divTableList > .div-item-panel {
+        margin-left: 3%;
+    }
+
+
+/*product list*/
+.divProductItem > div:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+}
+
+.divProductItem {
+    /*height: 650px;*/
+}
+
+    .divProductItem > .div-item-panel {
+        margin-left: 3%;
+    }
+
+
+/*menu footer*/
+div > .divContentMenu {
+    border-radius: 3px;
+    margin-right: 5px;
+    padding-top: 5px;
+    width: 23%;
+}
+
+.div-wrap {
+    /*height: 770px;*/
+}
+
+.leftcontent > .content-Detail {
+    /*height: 690px;*/
+    /*height: 70vh;*/
+}
+
+
+.btnAddCustomer {
+    padding-top: 8%;
+    font-size: 25px;
+    margin-left: -30% !important;
+}
+
+
+.list-itemInvoice.ext-content {
+    overflow-y: scroll;
+}
+
+.navInvoiceList > .md-nav-bar {
+    margin-top: 2px;
+}
+
+.isOrdered{
+    font-weight:normal;
+}
+.isNotOrdered{
+    font-weight:bold;
+}
