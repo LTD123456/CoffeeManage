@@ -1,0 +1,151 @@
+﻿.vn_language{
+    margin-left: 1294px !important; 
+    margin-top: -90px !important;
+}
+
+.gb_language{
+    margin-left: 1204px !important; 
+    margin-top: -90px !important;
+}
+
+.cn_language{
+    margin-left: 1125px !important; 
+    margin-top: -90px !important;
+}
+
+.cbDatabase {
+    width: 280px;
+}
+
+    .cbDatabase .k-dropdown-wrap {
+        background-color: transparent !important;
+    }
+
+    .cbDatabase input {
+        padding-left: 35px !important;
+    }
+
+.content_left {
+    border-right: solid 2px grey;
+    height: 35vh;
+}
+
+.header-content {
+    height: 22vh;
+}
+
+.content-top-login {
+    height: 5vh;
+}
+
+.footer-content {
+    padding-top: 20%;
+}
+
+.icon-login {
+    font-size: 20px;
+}
+
+.top-content-logo {
+    height: 10vh;
+}
+
+.divRemember {
+    color: white;
+}
+
+.login-right {
+    margin-left: 70px;
+    height: 89vh;
+}
+
+#cbBUList {
+    height: 34px;
+    border-radius: 3px;
+}
+#chkRemember {
+    height: 18px;
+    width: 18px;
+    margin-top: 0.5px;
+    margin-left: -25px;
+    outline: solid 0.2rem grey;
+}
+
+.form-control {
+    border-radius: 3px;
+    width: 280px;
+    border: 1px solid #999;
+    font-size: 15px;
+}
+
+
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+    /* style icon */
+    .inner-addon .fa {
+        position: absolute;
+        pointer-events: none;
+        box-sizing: border-box;
+        height: 45px;
+        line-height: 45px;
+        color: #999;
+    }
+
+/* align icon */
+.left-addon .fa {
+    left: 10px;
+}
+
+.right-addon .fa {
+    right: 0px;
+}
+
+/* add padding  */
+.left-addon input {
+    padding-left: 35px;
+    height: 36px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
+
+.k-input.cbDatabase {
+    box-sizing: border-box;
+    height: 34px!important;
+    padding: 0px 0px 0px 10px!important;
+    text-indent: 0px;
+    font-size: 14px;
+}
+
+.k-state-default > .k-select {
+    line-height: 38px;
+    background: #e8f0fe;
+    border: none !important;
+}
+
+.k-autocomplete.k-state-default, .k-dropdown-wrap.k-state-default, .k-numeric-wrap.k-state-default, .k-picker-wrap.k-state-default {
+    border-color: #999 !important;
+}
+
+#btnLogin {
+    height: 42px;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 280px;
+    border-radius: 3px;
+}
+.content_right .inner-addon{
+    position: relative;
+}
+.content_right .inner-addon svg{
+    position: absolute;
+    top: 12px;
+    left: 13px;
+    font-size: 14px;
+    color: #999;
+}

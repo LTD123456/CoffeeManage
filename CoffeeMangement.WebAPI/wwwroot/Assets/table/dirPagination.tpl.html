@@ -1,0 +1,25 @@
+﻿<div class="pull-right sn-pageSize" ><select title="Chọn số dòng hiển thị trong một trang" class="height-32px margin-left-5"  ng-init="count = counts[0]" ng-model="count" ng-options="c for c in counts" ng-change="setItemsPerPage(count)"></select></div>
+
+<ul class="pagination md-style" ng-if="1 < pages.length">
+    <li ng-if="boundaryLinks" ng-class="{ disabled : pagination.current == 1 }" class="hidden-sm">
+        <a href="#" ng-click="setCurrent(1)">&laquo;</a>
+    </li>
+    <li ng-if="directionLinks" ng-class="{ disabled : pagination.current == 1 }" class="ng-scope">
+        <a href="#" ng-click="setCurrent(pagination.current - 1)" class="ng-binding"><i class="fa fa-angle-left"></i></a>
+    </li>
+    <li  ng-repeat="pageNumber in pages track by $index" ng-class="{ active : pagination.current == pageNumber, disabled : pageNumber == '...' }">
+        <a href="#" ng-click="setCurrent(pageNumber)" class="hidden-480">{{ pageNumber }}</a>
+    </li>
+
+    <li ng-if="directionLinks" ng-class="{ disabled : pagination.current == pagination.last }" class="ng-scope">
+        <a href="#" ng-click="setCurrent(pagination.current + 1)" class="ng-binding"><i class="fa fa-angle-right"></i></a>
+    </li>
+    <li ng-if="boundaryLinks" ng-class="{ disabled : pagination.current == pagination.last }" class="hidden-sm">
+        <a href="#" ng-click="setCurrent(pagination.last)">&raquo;</a>
+    </li>
+    <li class="hidden-md hidden-sm ng-scope disabled">
+        <a class="hidden-320">Trang</a>
+        <input type="number" name="input" ng-model="pagination.current" min="1" max="{{pagination.last}}" ng-change="setCurrent(pagination.current)" required style="width: 50px; float: left;" />
+        <a>/{{pagination.last}}</a>
+    </li>
+</ul>

@@ -1,0 +1,238 @@
+/* responsive */
+.box_sp {
+    display: none;
+}
+
+.box_pc {
+    display: block;
+}
+/*responsive */
+@media screen and (min-width: 1920px) {
+    .bill {
+        width: 655px !important;
+    }
+
+    .itemList .bill {
+        width: 250px !important;
+    }
+
+    .main_form {
+        width: calc(100% - 665px) !important;
+    }
+
+    .main_form_header .txt_barcode, .main_form_header .txt_customer {
+    }
+
+    .sale_payment {
+        width: calc(100% - 670px) !important;
+    }
+}
+
+@media screen and (max-width: 1520px) {
+    .main_form_header .left {
+        float: left;
+        width: 630px !important;
+    }
+
+    .main_form_header .right {
+        width: calc(100% - 635px) !important;
+    }
+
+    .box_main_btn .bottom .btn_waitingbill, .box_main_btn .bottom .btn_promo {
+        width: 230px !important;
+    }
+    #wrapper_Coffee .box_main_btn .bottom .btn_list_table_hold, #wrapper_Coffee .box_main_btn .bottom .btn_add_table {
+        width: 152px!important;
+    }
+    #wrapper_Coffee .box_main_btn .bottom .btn_promo {
+        width: 151px !important;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1366px) {
+    .bill {
+        width: 410px !important;
+    }
+}
+
+@media screen and (max-width: 1365px) {
+    .main_form_header .left {
+        float: left;
+        width: 550px !important;
+    }
+
+    .main_form_header .right {
+        width: calc(100% - 555px) !important;
+    }
+
+    .box_main_btn .bottom .btn_waitingbill, .box_main_btn .bottom .btn_promo {
+        width: 190px !important;
+    }
+    #wrapper_Coffee .box_main_btn .bottom .btn_promo, #wrapper_Coffee .box_main_btn .bottom .btn_list_table_hold, #wrapper_Coffee .box_main_btn .bottom .btn_add_table {
+        width: 125px !important;
+    }
+}
+@media screen and (max-width: 1170px) {
+    .main_form_header .left {
+        float: left;
+        width: 510px !important;
+    }
+
+    .main_form_header .right {
+        width: calc(100% - 515px) !important;
+    }
+
+    .box_main_btn .bottom .btn_waitingbill, .box_main_btn .bottom .btn_promo {
+        width: 170px !important;
+    }
+    #wrapper_Coffee .box_main_btn .bottom .btn_list_table_hold, #wrapper_Coffee .box_main_btn .bottom .btn_add_table {
+        width: 111px !important;
+    }
+
+    #wrapper_Coffee .box_main_btn .bottom .btn_promo {
+        width: 113px !important;
+    }
+}
+@media screen and (max-width: 1024px) {
+
+    .main_menu {
+        width: 349px !important;
+    }
+
+        .main_menu.open {
+            left: 0px !important;
+        }
+
+    .slick-list {
+        height: 50px;
+    }
+
+    .main_menu_form li {
+        min-width: 80px !important;
+    }
+
+        .main_menu_form li:nth-child(1) {
+            width: calc(100% - 533px) !important;
+        }
+
+    .btn_payment {
+        font-size: 18px !important;
+    }
+
+    .sale_payment {
+        width: calc(100% - 360px) !important;
+    }
+
+    .box_number_payment {
+        width: 340px !important;
+    }
+
+    .box_card_payment {
+        width: calc(100% - 350px) !important;
+    }
+
+    .main_detail .box_total {
+        font-size: 22px !important;
+    }
+
+    .btn_list_card {
+        width: 160px !important;
+    }
+
+    .list_card li input {
+        width: calc(100% - 165px) !important;
+    }
+
+    .ip_notes {
+        min-width: 265px !important;
+    }
+
+    .txt_notes_w {
+        width: 265px !important;
+    }
+
+    .itemList .bill {
+        width: 250px !important;
+    }
+
+    .itemList_header .main_menu_form .btn_admin {
+        width: calc(100% - 50px) !important;
+    }
+
+    .item_notes b {
+        min-width: 240px !important;
+    }
+
+    .main_menu_form .box_admin li {
+        width: 200px !important;
+    }
+
+    .main_menu_form li.dropdown-submenu .dropdown-menu li {
+        width: 100% !important;
+    }
+
+    .main_bill .item .box_notes {
+        width: calc(100% - 55px) !important;
+    }
+
+    .itemList_menu.open {
+        padding-left: 350px !important;
+    }
+   .bill {
+        width: 350px !important;
+    }
+    .main_form {
+        width: calc(100% - 360px)!important;
+    }
+    .box_category {
+        margin-right:5px;
+    }
+    #box_getTables .item_tb {
+        transform: scale(0.8);
+        margin: 20px!important;
+    }
+    .main_form_content .item{
+        width:140px!important;
+    }
+    .box_special_discount {
+        width: 328px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .img_login{
+        display: none;
+    }
+    .box_background {
+        width:322px!important;
+        margin:50px auto 0px auto!important;
+        padding: 0!important;
+        background:none!important;
+        box-shadow:none!important;
+    }
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (min-width: 100px) and (max-width: 800px) {
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 560px) {
+}
+
+@media screen and (max-width: 490px) {
+}
+
+@media screen and (max-width: 320px) {
+}
+
+@media screen and (max-width: 240px) {
+}
